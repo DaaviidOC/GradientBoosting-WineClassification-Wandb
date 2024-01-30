@@ -1,4 +1,4 @@
-![Cover Image](cover.png)
+![Cover Image](imagen.png)
 # Gradient Boosting Classifier for Wine Classification </br> with Weights & Biases
 
 This repository contains an experimentation project for the Data Science class at Upgrade Hub. We utilize Weights & Biases to systematically tune and evaluate the hyperparameters of a Gradient Boosting Classifier. The dataset we are working with is the Wine dataset.
@@ -31,7 +31,7 @@ We integrate Weights & Biases into our experimentation pipeline, which allows us
 
 ## Hyperparameter Tuning and Best Model
 
-During the experimentation process, we performed an extensive search over the hyperparameter space. A total of **384 different combinations** of hyperparameters were tested to find the model that yields the best performance. The hyperparameters that we tuned include:
+During the experimentation process, we performed an extensive search over the hyperparameter space. A total of **388 different combinations** of hyperparameters were tested to find the model that yields the best performance. The hyperparameters that we tuned include:
 
 - Learning rate
 - Maximum depth of the trees
