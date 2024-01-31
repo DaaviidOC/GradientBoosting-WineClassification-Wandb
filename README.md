@@ -1,49 +1,33 @@
 ![Cover Image](imagen.png)
 # Gradient Boosting Classifier for Wine Classification </br> with Weights & Biases
 
-This repository contains an experimentation project for the Data Science class at Upgrade Hub. We utilize Weights & Biases to systematically tune and evaluate the hyperparameters of a Gradient Boosting Classifier. The dataset we are working with is the Wine dataset.
+This repository contains an experimentation project for the Data Science class at Upgrade Hub. We use Weights & Biases for the systematic adjustment and assessment of a Gradient Boosting Classifier's hyperparameters using the Wine dataset.
 
 ## About Upgrade Hub
 
-[Upgrade Hub](https://www.upgrade-hub.com/) is an educational institution dedicated to offering high-quality training programs in technology and data science.
+[Upgrade Hub](https://www.upgrade-hub.com/) is an educational institution specialized in high-quality educational programs in technology and data science.
 
 ## Results
 
-The experimentation results can be viewed in detail on the Weights & Biases dashboard. This includes various performance metrics such as accuracy, along with the hyperparameters used for each experiment.
+Detailed experimentation outcomes are accessible on the Weights & Biases dashboard, showcasing various metrics like accuracy and the hyperparameters of each test.
 
 🔗 [View Experimentation Results](https://api.wandb.ai/links/doficar91/trj1mxki)
 
 ## Problem Description
 
-The task at hand is a classic example of a multi-class classification problem. We aim to predict the category of wine based on several physicochemical attributes. The Wine dataset is a common benchmark dataset in the machine learning community.
+The project addresses a multi-class classification challenge, aiming to predict wine categories based on physicochemical properties. The Wine dataset serves as a well-regarded benchmark in the machine learning field.
 
 ## Dataset
 
-The Wine dataset is a publicly available dataset that contains 178 samples of wines with 13 different attributes such as Alcohol content, Malic acid, Ash, etc. There are three classes, representing three different types of wines. The dataset is well-suited for classification experiments.
+The publicly available Wine dataset comprises 178 wine samples across 13 attributes, such as Alcohol content and Malic acid, categorized into three wine types. It's apt for classification tests.
 
 ## Experimentation
 
-For this project, we utilize the Gradient Boosting Classifier, a powerful ensemble machine learning algorithm that builds on decision trees. It is particularly known for its effectiveness in classification problems.
-
-To find the best model, we explore various combinations of hyperparameters such as learning rate, maximum depth of the trees, the number of estimators, etc. Through systematic experimentation, we aim to understand the effect of these hyperparameters on the model's performance and find the combination that yields the best results.
-
-We integrate Weights & Biases into our experimentation pipeline, which allows us to log the hyperparameters and the performance metrics for each experiment. Weights & Biases provides us with an interactive dashboard where we can visualize and analyze the results.
+The project leverages the Gradient Boosting Classifier, an effective ensemble algorithm for classification, experimenting with hyperparameters like learning rate and tree depth to find the optimal model.
 
 ## Hyperparameter Tuning and Best Model
 
-During the experimentation process, we performed an extensive search over the hyperparameter space. A total of **388 different combinations** of hyperparameters were tested to find the model that yields the best performance. The hyperparameters that we tuned include:
-
-- Learning rate
-- Maximum depth of the trees
-- Number of estimators
-- Loss function
-- Subsample fraction
-- Minimum number of samples required to split an internal node
-- Minimum number of samples required to be at a leaf node
-
-This extensive search allowed us to explore a wide range of models and identify the combination of hyperparameters that optimizes the performance for this specific dataset.
-
-The model with the best score achieved an accuracy of **0.9815**. This high level of accuracy indicates that the model is highly effective in classifying the wine samples correctly. The hyperparameters of the best model are as follows:
+An exhaustive search tested 388 hyperparameter combinations, leading to a model with **0.9815** accuracy, showcasing its efficiency in classifying wines. The optimal hyperparameters include a 0.1 learning rate and a 4 max depth, among others.
 
 - learning_rate : 0.1
 - max_depths: 4
@@ -62,5 +46,5 @@ To run the code, first, ensure you have all the dependencies installed:
 
 ## Contributions
 
-Contributions to this repository are welcome. Please, ensure that the code follows best practices and is well-documented.
+Contributions are encouraged, with a reminder to adhere to best practices and thorough documentation.
 
